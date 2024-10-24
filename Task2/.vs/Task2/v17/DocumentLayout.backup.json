@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAC4AF33-2A75-4423-95CC-8D9CCC38AA82}|Task2\\Task2.csproj|c:\\users\\xaqan\\desktop\\programming\\c#\\task-24.10-\\task2\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAC4AF33-2A75-4423-95CC-8D9CCC38AA82}|Task2\\Task2.csproj|solutionrelative:task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C231FF3-37C1-42FF-9F3A-131DBE9268A4}|Core\\Core.csproj|c:\\users\\xaqan\\desktop\\programming\\c#\\task-24.10-\\task2\\core\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C231FF3-37C1-42FF-9F3A-131DBE9268A4}|Core\\Core.csproj|solutionrelative:core\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAC4AF33-2A75-4423-95CC-8D9CCC38AA82}|Task2\\Task2.csproj|c:\\users\\xaqan\\desktop\\programming\\c#\\task-24.10-\\task2\\task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAC4AF33-2A75-4423-95CC-8D9CCC38AA82}|Task2\\Task2.csproj|solutionrelative:task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C231FF3-37C1-42FF-9F3A-131DBE9268A4}|Core\\Core.csproj|c:\\users\\xaqan\\desktop\\programming\\c#\\task-24.10-\\task2\\core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Store.cs",
               "DocumentMoniker": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Core\\Models\\Store.cs",
               "RelativeDocumentMoniker": "Core\\Models\\Store.cs",
-              "ToolTip": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Core\\Models\\Store.cs",
-              "RelativeToolTip": "Core\\Models\\Store.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGcAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Core\\Models\\Store.cs*",
+              "RelativeToolTip": "Core\\Models\\Store.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T20:03:06.416Z",
               "IsPinned": true,
@@ -68,18 +68,17 @@
               "RelativeToolTip": "Core\\Models\\Product.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAIwDEAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T20:03:06.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T20:03:06.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Task2\\Program.cs",
               "RelativeDocumentMoniker": "Task2\\Program.cs",
               "ToolTip": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Task2\\Program.cs",
               "RelativeToolTip": "Task2\\Program.cs",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAmwP8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAmwIIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T20:03:06.509Z",
               "EditorCaption": ""

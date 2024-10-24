@@ -31,13 +31,21 @@ namespace Core.Models
 
         public Product[] RemoveProduct(int no)
         {
+            bool productFound = false;
 
             for (int i = 0; i < Products.Length; i++)
             {
                 if (Products[i].No == no)
                 {
                     Products[i] = null;
+                    Console.WriteLine("Secdiyiniz mehsul ugurla silindi.");
+                    productFound = true;
+                    break;
                 }
+            }
+            if (!productFound)
+            {
+                Console.WriteLine("Secdiyiniz mehsul siyahida yoxdur.");
             }
 
             Product[] newProducts = new Product[0];

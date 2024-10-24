@@ -125,20 +125,9 @@ namespace Task2
                                 Console.Write("Silmek istediyiniz mehsulun no- girin:");
 
                                 condition3 = int.TryParse(Console.ReadLine(), out choice);
-                                for (int i = 0; i < products2.Length; i++)
                                 {
-                                    if (choice == products2[i].No)
-                                    {
-                                        store.RemoveProduct(choice);
-                                        Console.WriteLine(" ");
-                                        Console.WriteLine("Secdiyiniz mehsul ugurla silindi.");
-                                        Console.WriteLine(" ");
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine("Qeyd etdiyiniz mehsul siyahida yoxdur.");
-                                        Console.WriteLine(" ");
-                                    }
+                                    store.RemoveProduct(choice);
+                                    Console.WriteLine(" ");
                                 }
 
 
@@ -192,12 +181,7 @@ namespace Task2
 
                                 }
                             }
-                            else
-                            {
-                                Console.WriteLine("Axtardiginiz mehsul tapilmadi.");
-                                Console.WriteLine(" ");
 
-                            }
 
 
 

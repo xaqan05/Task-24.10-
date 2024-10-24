@@ -13,8 +13,8 @@ namespace Task2
 
             string num;
 
-            TypeEnum type = TypeEnum.Meat;
-            TypeEnum type2 = TypeEnum.Meat;
+            TypeEnum? type = null;
+            TypeEnum? type2 = null;
             bool condition = false;
             int choice;
             int choice2;
@@ -88,13 +88,23 @@ namespace Task2
                             }
 
 
+                            if (type != null)
+                            {
 
-                            Product product = new Product(name, price, type);
+                                Product product = new Product(name, price, type.Value);
+                                store.AddProduct(product);
+                                Console.WriteLine("Mehsul ugurla elave olundu.");
+                                Console.WriteLine(" ");
+                            }
 
-                            store.AddProduct(product);
+                            else
+                            {
+                                Console.WriteLine("Mehsul elave edilmedi.");
+                                Console.WriteLine(" ");
+                            }
 
-                            Console.WriteLine("Mehsul ugurla elave olundu.");
-                            Console.WriteLine(" ");
+
+
 
 
                             break;
@@ -161,23 +171,36 @@ namespace Task2
                                     Console.WriteLine("Duzgun secim edin!");
                                     break;
                             }
-                            Product[] products = store.FilterProductsByType(type2);
 
-                            if (products.Length != 0)
+                            if (type2 != null)
                             {
-                                for (int i = 0; i < products.Length; i++)
+
+                                Product[] products = store.FilterProductsByType(type2.Value);
+                                if (products.Length != 0)
                                 {
-                                    products[i].ShowInfo();
+                                    for (int i = 0; i < products.Length; i++)
+                                    {
+                                        products[i].ShowInfo();
+                                        Console.WriteLine(" ");
+                                    }
+                                }
+
+                                else
+                                {
+                                    Console.WriteLine("Axtardiginiz mehsul tapilmadi.");
                                     Console.WriteLine(" ");
+
                                 }
                             }
-
                             else
                             {
                                 Console.WriteLine("Axtardiginiz mehsul tapilmadi.");
                                 Console.WriteLine(" ");
 
                             }
+
+
+
 
                             break;
                         case "4":

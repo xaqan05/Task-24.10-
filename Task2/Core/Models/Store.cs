@@ -91,7 +91,7 @@ namespace Core.Models
 
             for (int i = 0; i < Products.Length; i++)
             {
-                if (Products[i].Name == name)
+                if (Products[i].Name.ToLower() == name.ToLower())
                 {
                     Array.Resize(ref foundProducts, foundProducts.Length + 1);
                     foundProducts[foundProducts.Length - 1] = Products[i];
@@ -101,7 +101,7 @@ namespace Core.Models
             return foundProducts;
         }
 
-        public Product[] GETALL()
+        public Product[] GetAll()
         {
             return Products;
         }

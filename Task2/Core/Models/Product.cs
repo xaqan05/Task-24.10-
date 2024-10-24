@@ -45,5 +45,10 @@ namespace Core.Models
             Type = type;
         }
 
+        public void ShowInfo()
+        {
+            Console.WriteLine($"No: {No}, Name: {Name}, Price: {Price}, Type: {Type}");
+        }
+
     }
 }

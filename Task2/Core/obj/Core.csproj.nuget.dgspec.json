@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ll Novbe\\Desktop\\Task\\Task(24.10)\\Task2\\Core\\Core.csproj": {}
+    "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ll Novbe\\Desktop\\Task\\Task(24.10)\\Task2\\Core\\Core.csproj": {
+    "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ll Novbe\\Desktop\\Task\\Task(24.10)\\Task2\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\ll Novbe\\Desktop\\Task\\Task(24.10)\\Task2\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\ll Novbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ll Novbe\\Desktop\\Task\\Task(24.10)\\Task2\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Xaqan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xaqan\\Desktop\\Programming\\C#\\Task-24.10-\\Task2\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ll Novbe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Xaqan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
